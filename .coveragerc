@@ -1,0 +1,16 @@
+[paths]
+source =
+   src/simba
+   */site-packages/simba
+
+[run]
+branch = true
+source =
+    simba
+    tests
+parallel = true
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*
